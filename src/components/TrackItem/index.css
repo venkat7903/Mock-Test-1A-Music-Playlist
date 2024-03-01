@@ -1,0 +1,43 @@
+.track-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.track-img {
+  width: 150px;
+}
+
+.name-genre-container {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.genre {
+  color: #3b82f6;
+  font-weight: 500;
+  margin: 0;
+}
+
+.duration-delete-container {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.duration {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

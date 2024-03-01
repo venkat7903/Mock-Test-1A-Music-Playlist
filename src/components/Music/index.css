@@ -1,0 +1,76 @@
+.music-app-container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+.singer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  width: 100%;
+  background-size: cover;
+  height: 350px;
+  flex-shrink: 0;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.songs-list-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 10px 30px;
+  background-color: #152850;
+}
+
+.songs-list-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.list-title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  background-color: transparent;
+  height: 30px;
+  padding: 0px 10px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  color: #fff;
+}
+
+.tracks-list {
+  list-style-type: none;
+  padding-left: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+  overflow: auto;
+}
+
+.no-songs-desc {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+}
